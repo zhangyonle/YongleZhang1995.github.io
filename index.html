@@ -7,36 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Yongle Zhang</h1>
-        <p>Email: yongle.zhang@example.com | Phone: +86 123-4567-8901</p>
-        <p>Location: Sydney, NSW, Australia</p>
-    </header>
+    <div class="header">
+        <div class="info">
+            <h1>Yongle Zhang</h1>
+            <p>Address: Sydney, NSW 2000</p>
+            <p>Phone: +86 15079189702</p>
+            <p>Email: yongle.zhang@student.uts.edu.au</p>
+        </div>
+        <div class="photo">
+            <img src="photo.jpg" alt="Photo of Yongle Zhang">
+        </div>
+    </div>
+
     <hr>
-    <section>
+
+    <section class="profile">
         <h2>Profile</h2>
-        <p>A software engineer with over 5 years of experience in backend development...</p>
+        <p>Use this section to give recruiters a quick glimpse of your professional profile. Highlight your background, education, and main skills.</p>
     </section>
-    <section>
+
+    <section class="education">
         <h2>Education</h2>
-        <ul>
-            <li><strong>Ph.D. in Image Processing and Analytics</strong>, University of Sydney (Expected 2025)</li>
-            <li><strong>Master of Engineering</strong>, Ocean University of China (2020)</li>
-            <li><strong>Bachelor of Engineering in Software Engineering</strong>, Jiangxi Normal University (2017)</li>
-        </ul>
+        <div class="item">
+            <p><strong>Expected in 2025-08</strong> - Ph.D.: Image Processing And Analytics</p>
+            <p>University of Sydney - Sydney, NSW</p>
+            <p>Dissertation: Improvement of the Generative Networks for Image Inpainting</p>
+        </div>
+        <div class="item">
+            <p><strong>2020-06</strong> - Master of Engineering: Computer (Confidentiality) Science and Technology</p>
+            <p>Ocean University of China - Qingdao, Shandong, China</p>
+            <p>GPA: 88.8/100</p>
+            <ul>
+                <li>Second-Class Academic Scholarships, three consecutive years</li>
+                <li>Dissertation: Image Inpainting Algorithm based on Guidance-Enhanced Perceptual Generator and Multi-Scale Operation</li>
+            </ul>
+        </div>
+        <!-- 继续添加其他教育经历 -->
     </section>
-    <section>
-        <h2>Work Experience</h2>
-        <ul>
-            <li><strong>Intern</strong> at Vivo AI Visual Research Institute (2020-2021)</li>
-            <li>Conducted data cleanup for reliable datasets used for image inpainting models...</li>
-        </ul>
+
+    <section class="work-history">
+        <h2>Work History</h2>
+        <div class="item">
+            <p><strong>2020-09 - 2021-06</strong> - Intern at Vivo AI Visual Research Institute, Hangzhou, China</p>
+            <ul>
+                <li>Conducted data cleanup for reliable datasets used for image inpainting models.</li>
+                <li>Delivered inpainting models for mobile image editor and object removal.</li>
+            </ul>
+        </div>
     </section>
-    <section>
+
+    <section class="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Programming Languages: Python, Java, JavaScript, SQL</li>
-            <li>Tools and Frameworks: Django, Spring Boot, React, Docker</li>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+            <li>Skill 4</li>
         </ul>
     </section>
 </body>
